@@ -1,0 +1,352 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>dilzodbek-web</title>
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="fontawesome-free-5.15.4-web/css/all.min.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
+    <link rel="stylesheet" href="css/main.css">
+</head>
+<body>   
+             <!-- NAVBAR -->
+
+    <nav id="nav" class="navbar navbar-expand-md bg-dark navbar-dark fixed-top">
+        <!-- Brand -->
+        <a class="navbar-brand" href="#">Dilzodbek</a>
+
+        <!-- Toggler/collapsibe Button -->
+        <button onclick="navBack" class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <!-- Navbar links -->
+        <div class="collapse navbar-collapse" id="collapsibleNavbar">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link" href="#home">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#services">Services</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#portfolio">Portfolio</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#about">About</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#contact">Contact</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+                        <!-- Home -->
+    <section id="home" class="home">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6" data-aos="zoom-in-down" data-aos-duration="2500">
+                    <div class="titels">
+                        <p>Welcome to my website!</p>
+                        <h3>Dilzodbek Abdusattorov</h3>
+                        <h3>Frontend Developer</h3>
+                        <div class="button">
+                            <a href="#portfolio">Portfolio</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SERVICES -->
+    <section id="services" class="services">
+        <div class="container">
+            <h3 class="text-center">Services</h3>
+            <h6 class="text-center text-secondary">Lorem ipsum dolor sit amet,
+                 consectetur adipisicing elit. Amet, sint?
+            </h6>
+            <div class="row mt-3">
+                <div class="col-md-4" data-aos="fade-right" data-aos-duration="1200">
+                    <div class="card">
+                        <div class="card-header">
+                            <i class="fas fa-shopping-cart"></i>
+                        </div>
+                        <div class="card-body">
+                            <h3>Lorem ipsum</h3>
+                            <p>
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero aliquam fugiat,
+                                 eaque doloribus sunt accusantium. Amet molestias maxime laboriosam. Voluptates.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4" data-aos="zoom-in" data-aos-duration="1200">
+                    <div class="card">
+                        <div class="card-header">
+                            <i class="fas fa-laptop"></i>
+                        </div>
+                        <div class="card-body">
+                            <h3>Lorem ipsum</h3>
+                            <p>
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero aliquam fugiat,
+                                eaque doloribus sunt accusantium. Amet molestias maxime laboriosam. Voluptates.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4" data-aos="fade-left" data-aos-duration="1200">
+                    <div class="card">
+                        <div class="card-header">
+                            <i class="fas fa-lock"></i>
+                        </div>
+                        <div class="card-body">
+                            <h3>Lorem ipsum</h3>
+                            <p>
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero aliquam fugiat,
+                                eaque doloribus sunt accusantium. Amet molestias maxime laboriosam. Voluptates.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+        <!-- PORTFOLIO -->
+    <section id="portfolio" class="portfolio">
+        <div class="container">
+            <h3 class="text-center">Portfolio</h3>
+            <h6 class="text-center text-secondary">
+                The work I have prepared!
+            </h6>
+            <div class="row">
+                <div class="col-md-4 mt-4" data-aos="zoom-in-right" data-aos-duration="1200">
+                    <a target="_blank" href="https://pdp-online-uz.netlify.app">
+                        <div class="card">
+                            <div class="card-header">
+                                <div class="owerlay">
+                                    <h4>Project 1</h4>
+                                    <h6>PDP-online</h6>
+                                </div>
+                                <img src="img/pdp.png" height="248" alt="Portfolio-img">
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-md-4 mt-4" data-aos="zoom-in-up" data-aos-duration="1200">
+                   <a target="_blank" href="https://snabtorg-uz.netlify.app">
+                        <div class="card">
+                            <div class="card-header">
+                                <div class="owerlay">
+                                    <h4>Project 2</h4>
+                                    <h6>Snabtorg-uz</h6>
+                                </div>
+                                <img src="img/snabtorg.png" height="248" alt="Portfolio-img">
+                            </div>
+                        </div>
+                   </a>
+                </div>
+                <div class="col-md-4 mt-4" data-aos="zoom-in-left" data-aos-duration="1200">
+                    <a target="_blank" href="https://programmer-weatherapp.netlify.app">
+                        <div class="card">
+                            <div class="card-header">
+                                <div class="owerlay">
+                                    <h4>Project 3</h4>
+                                    <h6>Weather-app
+                                        <br> {React js)
+                                    </h6>
+                                </div>
+                                <img src="img/weather1.png" height="248" alt="Portfolio-img">
+                            </div>
+                    </div></a>
+                </div>
+                <div class="col-md-4 mt-4" data-aos="zoom-in-right"" data-aos-duration="1200">
+                   <a target="_blank" href="https://cloud-budget-com.netlify.app">
+                        <div class="card">
+                            <div class="card-header">
+                                <div class="owerlay">
+                                    <h4>Project 4</h4>
+                                    <h6>Cloud-budget</h6>
+                                </div>
+                                <img src="img/cloud-budget.png" height="248" alt="Portfolio-img">
+                            </div>
+                        </div>
+                   </a>
+                </div>
+                <div class="col-md-4 mt-4" data-aos="zoom-in-up" data-aos-duration="1200">
+                    <a target="_blank" href="https://programmer-yandexmap.netlify.app">
+                        <div class="card">
+                            <div class="card-header">
+                                <div class="owerlay">
+                                    <h4>Project 5</h4>
+                                    <h6>Yandex-map
+                                        <br> {React js}
+                                    </h6>
+                                </div>
+                                <img src="img/YandexMap.png" height="248" alt="Portfolio-img">
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-md-4 mt-4" data-aos="zoom-in-left" data-aos-duration="1200"> 
+                            
+                  <a target="_blank" href="https://Max-way.netlify.app">
+                        <div class="card">
+                            <div class="card-header">
+                                <div class="owerlay">
+                                    <h4>Project 6</h4>
+                                    <h6>Max-way</h6>
+                                </div>
+                                <img src="img/max-way.png" width="100%" height="248" alt="Portfolio-img">
+                            </div>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+        <!-- ABOUT -->
+    <section id="about" class="about">
+        <div class="container">
+            <h3 class="text-center">About me</h3>
+            <h5 class="text-center text-secondary">
+                Brief information about myself!
+            </h5>
+            <div class="row">
+                <div class="col-md-4 mt-5"  data-aos="fade-right" data-aos-duration="1200">
+                    <img src="img/me.jpg" width="100%" alt="">
+                </div>
+                <div class="col-md-4 mt-5"  data-aos="fade-left" data-aos-duration="1200">
+                    <div class="info">
+                        <h4>Abdusattorov Dilzodbek Akbarovich</h4>
+                        <h6 class="mt-4">I am Abdusattorov Dilzodbek, born on October 1, 2002 in Boka district of Tashkent region. In 2020, after graduating from
+                        school No. 54 in Boka district, I entered the Almalyk branch of the Tashkent State Technical University.
+                        For now, I am a junior programmer.</h6>
+                        <ul class="main mt-5">
+                            <li>
+                                <span class="firstSpan">
+                                    <i class="fas fa-user"></i>
+                                    Name:
+                                </span>                             
+                                <span class="secondSpan">
+                                    Dilzodbek Abdusattorov
+                                </span>
+                            </li>
+                            <li>
+                                <span class="firstSpan">
+                                    <i class="fas fa-calendar-alt"></i>
+                                    Birthday:
+                                </span>
+                                <span class="secondSpan">
+                                    1 October 2002
+                                </span>
+                            </li>
+                            <li>
+                                <span class="firstSpan">
+                                    <i class="fas fa-map-marker-alt"></i>
+                                    Address:
+                                </span>                               
+                                <span class="secondSpan">
+                                    Boka, Tashkent, Uzbekistan
+                                </span>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+        <!-- CONTACT -->
+
+    <div class="CONTACT">
+        <h3 class="text-center">Contact</h3>
+        <h5 class="text-center text-secondary">
+            The means of communication I have available
+        </h5>
+    </div>
+    <section id="contact" class="contact mt-3">
+        <div class="container">
+            <div class="row">
+                <div class="col mt-3" data-aos="zoom-in-up" data-aos-duration="1200">
+                    <div class="contactIcon">
+                        <ul>
+                            <li>
+                                <span class="contactSpan">
+                                    <i class="fas fa-phone-alt"></i>
+                                    Phone(1):
+                                </span>
+                                <span class="contactSpan text-secondary">
+                                    93 902-42-47
+                                </span>
+                        
+                            </li>
+                        </ul>
+                        <ul>
+                            <li>
+                                <span class="contactSpan">
+                                    <i class="fas fa-phone-alt"></i>
+                                    Phone(2):
+                                </span>
+                                <span class="contactSpan text-secondary">
+                                    33 700-42-47
+                                </span>
+                        
+                            </li>
+                        </ul>
+                        <ul>
+                            <li class="email">
+                                <span class="contactSpan">
+                                    <i class="fas fa-map-marker-alt"></i>
+                                    E-mail:
+                                </span>
+                                <span class="contactSpan text-secondary">
+                                    dilzodbek47@gmail.com
+                                </span>
+                        
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+        <!-- FOOTER -->
+    <footer class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="copyright">
+                        <h6 class="text-white mt-2">
+                            Web site made by Dilzodbek Abdusattorov 
+                            <script>document.write(new Date().getFullYear());</script>
+                        </h6>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="social-networks">
+                        <a target="_blank" href="https://t.me/D_Abdusattorov" class="networks">
+                            <i class="fab fa-telegram"></i>
+                        </a>
+                        <a target="_blank" href="https://instagram.com/dilzodbek_4247" class="networks">
+                            <i class="fab fa-instagram"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+<script src="js/jquery-3.3.1.slim.min.js"></script>
+<script src="js/popper.min.js"></script>
+<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+<script>
+    AOS.init();
+</script>
+<script src="js/bootstrap.js"></script>
+<script src="index.js"></script>
+</body>
+</html>
